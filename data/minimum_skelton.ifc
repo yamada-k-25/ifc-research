@@ -1,0 +1,18 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION (('ViewDefinition [CoordinationView, QuantityTakeOffAddOnView]'), '2;1');
+FILE_NAME ('example.ifc', '2008-08-01T21:53:56', ('Architect'), ('Building Designer Office'), 'IFC Engine DLL version 1.02 beta', 'IFC Engine DLL version 1.02 beta', 'The authorising person');
+FILE_SCHEMA (('IFC2X3'));
+ENDSEC;
+DATA;
+#1 = IFCPROJECT('3MD_HkJ6X2EwpfIbCFm0g_', #2, 'Default Project', 'Description of Default Project', $, $, $, (#20), $);
+#2 = IFCOWNERHISTORY(#3, #6, $, .ADDED., $, $, $, 1217620436);
+#3 = IFCPERSONANDORGANIZATION(#4, #5, $);
+#4 = IFCPERSON('ID001', 'Bonsma', 'Peter', $, $, $, $, $);
+#5 = IFCORGANIZATION($, 'TNO', 'TNO Building Innovation', $, $);
+#6 = IFCAPPLICATION(#5, '0.10', 'Test Application', 'TA 1001');
+#20 = IFCGEOMETRICREPRESENTATIONCONTEXT($, 'Model', 3, 1.000E-5, #21, $);
+#21 = IFCAXIS2PLACEMENT3D(#22, $, $);
+#22 = IFCCARTESIANPOINT((0., 0., 0.));
+ENDSEC;
+END-ISO-10303-21;
